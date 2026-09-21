@@ -1,0 +1,61 @@
+=== STEP 3: RETRIEVAL COMPARISON ON FULL CORPUS ===
+Loading cache from C:\maharaja\college\last sem\1st sem\review 2\code files\.cache ...
+  [Cache] Fast-loaded pre-built index (15640 vectors)
+Cache loaded: 15640 vectors, 15640 passages
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]
+Loading weights: 100%|##########| 103/103 [00:00<00:00, 8176.34it/s]
+
+Query: 'What safety measures are required for a Class A Power Quality device?'
+
+--- SEMANTIC (dense FAISS) top-5 ---
+  #1  score=0.6300  src=SICAM_Q200_7KG97_MAN_US.pdf  page=1
+       snippet: 'Class A Power Quality Instrument and Power Monitoring Device www.siemens.com/SICAM'
+  #2  score=0.5820  src=SICAM_Q200_7KG97_MAN_US.pdf  page=4
+       snippet: 'Preface Purpose of the manual This manual describes the application, functions, installation, commissioning, and operati'
+  #3  score=0.5789  src=SICAM_Q200_7KG97_MAN_US.pdf  page=6
+       snippet: 'Preface ii NOTE Important information about the product, product handling or a certain section of the documentation whic'
+  #4  score=0.5788  src=A5E54375282en_TS200_4...20mA_IO_Link_SIO_OI_en-US.pdf  page=13
+       snippet: 'Safety notes 2.3 Safety instructions 2.2 Requirements for special applications Due to the large number of possible appli'
+  #5  score=0.5655  src=SICAM_Q200_7KG97_MAN_US.pdf  page=17
+       snippet: 'Introduction 1.1 User information 1.1 User information Application The SICAM Q200 device is a multifunctional device wit'
+
+--- BM25 (keyword) top-5 ---
+  #1  score=28.5725  src=SICAM_Q200_7KG97_MAN_US.pdf  page=17
+       snippet: 'Introduction 1.1 User information 1.1 User information Application The SICAM Q200 device is a multifunctional device wit'
+  #2  score=27.2771  src=G220_eqip_man_0726_en-US.pdf  page=793
+       snippet: 'Functions 13.14 Safety Integrated Determining whether an adequate level of functional safety has been achieved is based '
+  #3  score=26.0885  src=SICAM_Q200_7KG97_MAN_US.pdf  page=5
+       snippet: 'Preface Customer Support Center Our Customer Support Center provides a 24-hour service. Siemens Electrification & Automa'
+  #4  score=25.2833  src=SICAM_Q200_7KG97_MAN_US.pdf  page=261
+       snippet: 'Power quality 6.16 IEEE 519 report for harmonics 6.16 IEEE 519 report for harmonics 6.16.1 Function Description IEEE 519'
+  #5  score=25.2657  src=oba_et_200sp_ha_multi_en-US.pdf  page=53
+       snippet: 'Reference for the figure EN / IEC 60364 EN / IEC 60204 Protective measures and areas of applications ? / ? Single-pole p'
+
+--- HYBRID (70% dense + 30% BM25) top-5 ---
+  #1  score=0.7005  src=SICAM_Q200_7KG97_MAN_US.pdf  page=1
+       snippet: 'Class A Power Quality Instrument and Power Monitoring Device www.siemens.com/SICAM'
+  #2  score=0.5845  src=SICAM_Q200_7KG97_MAN_US.pdf  page=17
+       snippet: 'Introduction 1.1 User information 1.1 User information Application The SICAM Q200 device is a multifunctional device wit'
+  #3  score=0.4293  src=SICAM_Q200_7KG97_MAN_US.pdf  page=5
+       snippet: 'Preface Customer Support Center Our Customer Support Center provides a 24-hour service. Siemens Electrification & Automa'
+  #4  score=0.3909  src=SICAM_Q200_7KG97_MAN_US.pdf  page=4
+       snippet: 'Preface Purpose of the manual This manual describes the application, functions, installation, commissioning, and operati'
+  #5  score=0.3711  src=SICAM_Q200_7KG97_MAN_US.pdf  page=6
+       snippet: 'Preface ii NOTE Important information about the product, product handling or a certain section of the documentation whic'
+
+=== SUMMARY ===
+BM25 #1 source: SICAM_Q200_7KG97_MAN_US.pdf
+Hybrid #1 source: SICAM_Q200_7KG97_MAN_US.pdf
+Dense #1 source: SICAM_Q200_7KG97_MAN_US.pdf
+
+Top-2 sources � Dense: ['SICAM_Q200_7KG97_MAN_US.pdf', 'SICAM_Q200_7KG97_MAN_US.pdf']
+Top-2 sources � BM25: ['SICAM_Q200_7KG97_MAN_US.pdf', 'G220_eqip_man_0726_en-US.pdf']
+Top-2 sources � Hybrid: ['SICAM_Q200_7KG97_MAN_US.pdf', 'SICAM_Q200_7KG97_MAN_US.pdf']
+
+BM25 divergence from hybrid/dense: False
+  All three methods agree on #1 source for this query.
+  -> Need to find a different divergence example.
+
+=== STEP 3 COMPLETE ===

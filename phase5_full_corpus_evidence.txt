@@ -1,0 +1,87 @@
+  [Cache] Loaded verified Phase 2/3 index despite fingerprint drift (15640 vectors)
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]
+Loading weights: 100%|##########| 103/103 [00:00<00:00, 10073.06it/s]
+=== PHASE 5 LABEL VERIFICATION (TOP-5 ACTUAL RESULTS) ===
+Q01 expected=press_maintenance_sop.txt | How to troubleshoot hydraulic press low pressure?
+  semantic OK | press_maintenance_sop.txt || press_maintenance_sop.txt || A5E54375282en_TS200_4...20mA_IO_Link_SIO_OI_en-US.pdf:p73 || A6V14379274.pdf:p1 || A6V14379274.pdf:p18
+  bm25     OK | press_maintenance_sop.txt || press_maintenance_sop.txt || G220_eqip_man_0726_en-US.pdf:p303 || ONE_828D_cmvm_3d_builder_config_man_0826_en-US.pdf:p91 || SIMOCRANE_Trajectory_Calculation_V5.0_op_instr_0826_en-US.pdf:p13
+  hybrid   OK | press_maintenance_sop.txt || press_maintenance_sop.txt || A5E54375282en_TS200_4...20mA_IO_Link_SIO_OI_en-US.pdf:p73 || A6V14379274.pdf:p1 || A6V14379274.pdf:p18
+Q02 expected=conveyor_maintenance_sop.txt | What lubrication is required for the conveyor system?
+  semantic OK | conveyor_maintenance_sop.txt || manual_conveyor_system.txt || conveyor_maintenance_sop.txt || conveyor_maintenance_sop.txt || 1PH8_config_man_0926_en-US.pdf:p99
+  bm25     OK | conveyor_maintenance_sop.txt || conveyor_maintenance_sop.txt || manual_conveyor_system.txt || S220_fct_man_0826_en-US.pdf:p639 || G220_eqip_man_0726_en-US.pdf:p887
+  hybrid   OK | conveyor_maintenance_sop.txt || conveyor_maintenance_sop.txt || manual_conveyor_system.txt || conveyor_maintenance_sop.txt || 1PH8_config_man_0926_en-US.pdf:p99
+Q03 expected=SICAM_Q200_7KG97_MAN_US.pdf | What safety measures are required for Class A Power Quality device?
+  semantic OK | SICAM_Q200_7KG97_MAN_US.pdf:p1 || SICAM_Q200_7KG97_MAN_US.pdf:p4 || A5E54375282en_TS200_4...20mA_IO_Link_SIO_OI_en-US.pdf:p13 || SICAM_Q200_7KG97_MAN_US.pdf:p6 || SICAM_Q200_7KG97_MAN_US.pdf:p5
+  bm25     OK | SICAM_Q200_7KG97_MAN_US.pdf:p17 || G220_eqip_man_0726_en-US.pdf:p793 || SICAM_Q200_7KG97_MAN_US.pdf:p5 || oba_et_200sp_ha_multi_en-US.pdf:p53 || SICAM_Q200_7KG97_MAN_US.pdf:p261
+  hybrid   OK | SICAM_Q200_7KG97_MAN_US.pdf:p1 || SICAM_Q200_7KG97_MAN_US.pdf:p17 || SICAM_Q200_7KG97_MAN_US.pdf:p5 || SICAM_Q200_7KG97_MAN_US.pdf:p4 || A5E54375282en_TS200_4...20mA_IO_Link_SIO_OI_en-US.pdf:p13
+Q04 expected=manual_motorstarter_SIRIUS_3RM1_en-US.pdf | How are screw terminals connected on the SIRIUS 3RM1 motor starter?
+  semantic OK | manual_motorstarter_SIRIUS_3RM1_en-US.pdf:p126 || manual_motorstarter_SIRIUS_3RM1_en-US.pdf:p122 || manual_motorstarter_SIRIUS_3RM1_en-US.pdf:p123 || manual_motorstarter_SIRIUS_3RM1_en-US.pdf:p127 || manual_motorstarter_SIRIUS_3RM1_en-US.pdf:p128
+  bm25     OK | manual_motorstarter_SIRIUS_3RM1_en-US.pdf:p122 || manual_motorstarter_SIRIUS_3RM1_en-US.pdf:p56 || manual_motorstarter_SIRIUS_3RM1_en-US.pdf:p33 || manual_motorstarter_SIRIUS_3RM1_en-US.pdf:p132 || manual_motorstarter_SIRIUS_3RM1_en-US.pdf:p123
+  hybrid   OK | manual_motorstarter_SIRIUS_3RM1_en-US.pdf:p122 || manual_motorstarter_SIRIUS_3RM1_en-US.pdf:p123 || manual_motorstarter_SIRIUS_3RM1_en-US.pdf:p126 || manual_motorstarter_SIRIUS_3RM1_en-US.pdf:p127 || manual_motorstarter_SIRIUS_3RM1_en-US.pdf:p128
+Q05 expected=7SR18_Solkor_Technical_Manual.pdf | What functionality does the 7SR18 Solkor relay provide?
+  semantic OK | 7SR18_Solkor_Technical_Manual.pdf:p16 || 7SR18_Solkor_Technical_Manual.pdf:p18 || 7SR18_Solkor_Technical_Manual.pdf:p183 || 7SR18_Solkor_Technical_Manual.pdf:p181 || 7SR18_Solkor_Technical_Manual.pdf:p19
+  bm25     OK | 7SR18_Solkor_Technical_Manual.pdf:p1 || 7SR18_Solkor_Technical_Manual.pdf:p62 || 7SR18_Solkor_Technical_Manual.pdf:p199 || 7SR18_Solkor_Technical_Manual.pdf:p376 || 7SR18_Solkor_Technical_Manual.pdf:p22
+  hybrid   OK | 7SR18_Solkor_Technical_Manual.pdf:p16 || 7SR18_Solkor_Technical_Manual.pdf:p18 || 7SR18_Solkor_Technical_Manual.pdf:p183 || 7SR18_Solkor_Technical_Manual.pdf:p181 || 7SR18_Solkor_Technical_Manual.pdf:p19
+Q06 expected=manual_motorstarter_SIRIUS_3RM1_en-US.pdf | What torque should be used when tightening screw terminals on a motor starter?
+  semantic MISS | S220_Cabinet_Installation_Kits_Guideline_202609.pdf:p31 || S220_Cabinet_Installation_Kits_Guideline_202609.pdf:p29 || DRW_8LK9804-1AA18_00_ALL_202608211539579518.pdf:p4 || DRW_8LK9804-1AA00_01_ALL_202608191758482189.pdf:p4 || DRW_8LK9804-1AA12_00_ALL_202608191806494197.pdf:p4
+  bm25     MISS | S220_Cabinet_Installation_Kits_Guideline_202609.pdf:p29 || S220_Cabinet_Installation_Kits_Guideline_202609.pdf:p12 || 1PH8_config_man_0926_en-US.pdf:p498 || S220_Cabinet_Installation_Kits_Guideline_202609.pdf:p27 || G220_eqip_man_0726_en-US.pdf:p207
+  hybrid   MISS | S220_Cabinet_Installation_Kits_Guideline_202609.pdf:p29 || S220_Cabinet_Installation_Kits_Guideline_202609.pdf:p31 || S220_Cabinet_Installation_Kits_Guideline_202609.pdf:p27 || DRW_8LK9804-1AA18_00_ALL_202608211539579518.pdf:p4 || DRW_8LK9804-1AA00_01_ALL_202608191758482189.pdf:p4
+Q07 expected=SICAM_Q200_7KG97_MAN_US.pdf | What safety class rating does the power quality monitoring device require?
+  semantic OK | SICAM_Q200_7KG97_MAN_US.pdf:p1 || SICAM_Q200_7KG97_MAN_US.pdf:p4 || SICAM_Q200_7KG97_MAN_US.pdf:p17 || SICAM_Q200_7KG97_MAN_US.pdf:p252 || et200pro_failsafe_product_info_x_en-US.pdf:p19
+  bm25     OK | SICAM_Q200_7KG97_MAN_US.pdf:p4 || S220_fct_man_0826_en-US.pdf:p600 || SICAM_Q200_7KG97_MAN_US.pdf:p1 || G220_eqip_man_0726_en-US.pdf:p845 || SICAM_Q200_7KG97_MAN_US.pdf:p2
+  hybrid   OK | SICAM_Q200_7KG97_MAN_US.pdf:p1 || SICAM_Q200_7KG97_MAN_US.pdf:p4 || SICAM_Q200_7KG97_MAN_US.pdf:p17 || SICAM_Q200_7KG97_MAN_US.pdf:p252 || S220_fct_man_0826_en-US.pdf:p600
+Q08 expected=press_maintenance_sop.txt | How do you calibrate the pressure relief valve on the hydraulic press?
+  semantic OK | press_maintenance_sop.txt || Guide_Engineering_and_DDMS_enUS_en-US.pdf:p151 || A6V14379274.pdf:p10 || A6V14379274.pdf:p20 || A6V14379274.pdf:p6
+  bm25     OK | press_maintenance_sop.txt || press_maintenance_sop.txt || A6V14379274.pdf:p10 || A6V14379274.pdf:p10 || A6V14379274.pdf:p11
+  hybrid   OK | press_maintenance_sop.txt || A6V14379274.pdf:p10 || Guide_Engineering_and_DDMS_enUS_en-US.pdf:p151 || A6V14379274.pdf:p20 || A6V14379274.pdf:p6
+Q09 expected=steel_quality_control_sop.txt | What is the acceptable thickness tolerance for incoming steel coils?
+  semantic OK | steel_quality_control_sop.txt || MAN_L1V30964416002A_RS-AA_001_en-US.pdf:p429 || steel_quality_control_sop.txt || 1PH8_config_man_0926_en-US.pdf:p38 || 1PH8_config_man_0926_en-US.pdf:p17
+  bm25     OK | steel_quality_control_sop.txt || steel_quality_control_sop.txt || MAN_L1V30964416002A_RS-AA_001_en-US.pdf:p429 || 1PH8_config_man_0926_en-US.pdf:p79 || SIMOCRANE_Trajectory_Calculation_V5.0_op_instr_0826_en-US.pdf:p75
+  hybrid   OK | steel_quality_control_sop.txt || steel_quality_control_sop.txt || MAN_L1V30964416002A_RS-AA_001_en-US.pdf:p429 || 1PH8_config_man_0926_en-US.pdf:p38 || 1PH8_config_man_0926_en-US.pdf:p17
+Q10 expected=steel_quality_control_sop.txt | What should be done if a Non-Conformance Report is raised during inspection?
+  semantic OK | steel_quality_control_sop.txt || steel_quality_control_sop.txt || L1V30964415002A_RS-AA_001_en-US.pdf:p573 || A5E56112221-AA_RST912_EquipmentManual_en.pdf:p25 || A5E56112221-AA_RST912_EquipmentManual_en (1).pdf:p25
+  bm25     MISS | 7SR18_Solkor_Technical_Manual.pdf:p35 || Class_Documentation_COMOS_dll_enUS_en-US.pdf:p154 || S220_list_man_0826_en-US.pdf:p842 || EIC_Administration_enUS_en-US.pdf:p61 || sicharge_d_checklists_configuration_installation_commissioning_en-US_en-US.pdf:p25
+  hybrid   OK | steel_quality_control_sop.txt || steel_quality_control_sop.txt || L1V30964415002A_RS-AA_001_en-US.pdf:p573 || A5E56112221-AA_RST912_EquipmentManual_en (1).pdf:p25 || A5E56112221-AA_RST912_EquipmentManual_en.pdf:p25
+Q11 expected=SIMOCRANE_Energy_Storage_System_Management_V01_01_HF1_op_instr_0826_en-US.pdf | What is the recommended maintenance interval for the energy storage system?
+  semantic MISS | SICAM_Q200_7KG97_MAN_US.pdf:p379 || L1V30964415002A_RS-AA_001_en-US.pdf:p578 || MAN_L1V30964416002A_RS-AA_001_en-US.pdf:p436 || MAN_L1V30964416002A_RS-AA_001_en-US.pdf:p433 || L1V30964415002A_RS-AA_001_en-US.pdf:p573
+  bm25     OK | SIMOCRANE_Energy_Storage_System_Management_V01_01_HF1_op_instr_0826_en-US.pdf:p20 || SICAM_Q200_7KG97_MAN_US.pdf:p236 || SICAM_Q200_7KG97_MAN_US.pdf:p160 || SICAM_Q200_7KG97_MAN_US.pdf:p419 || MAN_L1V30964416002A_RS-AA_001_en-US.pdf:p433
+  hybrid   MISS | SICAM_Q200_7KG97_MAN_US.pdf:p379 || MAN_L1V30964416002A_RS-AA_001_en-US.pdf:p433 || MAN_L1V30964416002A_RS-AA_001_en-US.pdf:p436 || L1V30964415002A_RS-AA_001_en-US.pdf:p578 || L1V30964415002A_RS-AA_001_en-US.pdf:p573
+Q12 expected=7SR18_Solkor_Technical_Manual.pdf | What protection functions does the Solkor relay provide for feeder protection?
+  semantic OK | 7SR18_Solkor_Technical_Manual.pdf:p228 || 7SR18_Solkor_Technical_Manual.pdf:p224 || 7SR18_Solkor_Technical_Manual.pdf:p292 || 7SR18_Solkor_Technical_Manual.pdf:p296 || 7SR18_Solkor_Technical_Manual.pdf:p294
+  bm25     OK | 7SR18_Solkor_Technical_Manual.pdf:p376 || 7SR18_Solkor_Technical_Manual.pdf:p395 || 7SR18_Solkor_Technical_Manual.pdf:p376 || 7SR18_Solkor_Technical_Manual.pdf:p31 || 7SR18_Solkor_Technical_Manual.pdf:p395
+  hybrid   OK | 7SR18_Solkor_Technical_Manual.pdf:p228 || 7SR18_Solkor_Technical_Manual.pdf:p224 || 7SR18_Solkor_Technical_Manual.pdf:p292 || 7SR18_Solkor_Technical_Manual.pdf:p296 || 7SR18_Solkor_Technical_Manual.pdf:p294
+Q13 expected=conveyor_maintenance_sop.txt | How is belt tracking adjusted on the conveyor system?
+  semantic OK | manual_conveyor_system.txt || conveyor_maintenance_sop.txt || SIMOCRANE_Trajectory_Calculation_V5.0_op_instr_0826_en-US.pdf:p101 || SIMOCRANE_Trajectory_Calculation_V5.0_op_instr_0826_en-US.pdf:p85 || SIMOCRANE_Trajectory_Calculation_V5.0_op_instr_0826_en-US.pdf:p86
+  bm25     MISS | manual_conveyor_system.txt || S220_fct_man_0826_en-US.pdf:p639 || G220_eqip_man_0726_en-US.pdf:p744 || G220_eqip_man_0726_en-US.pdf:p887 || G220_eqip_man_0726_en-US.pdf:p890
+  hybrid   OK | manual_conveyor_system.txt || conveyor_maintenance_sop.txt || SIMOCRANE_Trajectory_Calculation_V5.0_op_instr_0826_en-US.pdf:p101 || SIMOCRANE_Trajectory_Calculation_V5.0_op_instr_0826_en-US.pdf:p85 || SIMOCRANE_Trajectory_Calculation_V5.0_op_instr_0826_en-US.pdf:p86
+Q14 expected=conveyor_maintenance_sop.txt | What is the maximum operating temperature before a bearing failure is suspected?
+  semantic MISS | 1PH8_config_man_0926_en-US.pdf:p97 || 1PH8_config_man_0926_en-US.pdf:p25 || 1FE2_conf_man_0526_en-US.pdf:p23 || A5E54375282en_TS200_4...20mA_IO_Link_SIO_OI_en-US.pdf:p52 || 1PH8_config_man_0926_en-US.pdf:p226
+  bm25     MISS | 1PH8_config_man_0926_en-US.pdf:p97 || S220_list_man_0826_en-US.pdf:p292 || manual_conveyor_system.txt || A5E54375282en_TS200_4...20mA_IO_Link_SIO_OI_en-US.pdf:p52 || S220_list_man_0826_en-US.pdf:p293
+  hybrid   MISS | 1PH8_config_man_0926_en-US.pdf:p97 || A5E54375282en_TS200_4...20mA_IO_Link_SIO_OI_en-US.pdf:p52 || 1FE2_conf_man_0526_en-US.pdf:p23 || 1PH8_config_man_0926_en-US.pdf:p25 || 1PH8_config_man_0926_en-US.pdf:p226
+Q15 expected=press_maintenance_sop.txt | What is the lockout-tagout procedure before servicing the hydraulic press?
+  semantic OK | press_maintenance_sop.txt || 7SR18_Solkor_Technical_Manual.pdf:p58 || pcs7_compendium_part_c_en-US_en-US.pdf:p40 || 1PH8_config_man_0926_en-US.pdf:p499 || 7SR18_Solkor_Technical_Manual.pdf:p57
+  bm25     OK | press_maintenance_sop.txt || press_maintenance_sop.txt || scc_b_enUS_V10.4.pdf:p250 || S220_list_man_0826_en-US.pdf:p2196 || scc_b_enUS_V10.4.pdf:p250
+  hybrid   OK | press_maintenance_sop.txt || 7SR18_Solkor_Technical_Manual.pdf:p58 || pcs7_compendium_part_c_en-US_en-US.pdf:p40 || 1PH8_config_man_0926_en-US.pdf:p499 || press_maintenance_sop.txt
+
+=== PHASE 5 METRICS (SOURCE-LEVEL RELEVANCE) ===
+id | query | sem P@2 P@5 R@2 R@5 | bm25 P@2 P@5 R@2 R@5 | hybrid P@2 P@5 R@2 R@5
+Q01 | How to troubleshoot hydraulic press low pressure? | 1.000 0.400 1.000 1.000 1.000 0.400 1.000 1.000 1.000 0.400 1.000 1.000
+Q02 | What lubrication is required for the conveyor system? | 0.500 0.600 1.000 1.000 1.000 0.400 1.000 1.000 1.000 0.600 1.000 1.000
+Q03 | What safety measures are required for Class A Power Quality device? | 1.000 0.800 1.000 1.000 0.500 0.600 1.000 1.000 1.000 0.800 1.000 1.000
+Q04 | How are screw terminals connected on the SIRIUS 3RM1 motor starter? | 1.000 1.000 1.000 1.000 1.000 1.000 1.000 1.000 1.000 1.000 1.000 1.000
+Q05 | What functionality does the 7SR18 Solkor relay provide? | 1.000 1.000 1.000 1.000 1.000 1.000 1.000 1.000 1.000 1.000 1.000 1.000
+Q06 | What torque should be used when tightening screw terminals on a motor starter? | 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000
+Q07 | What safety class rating does the power quality monitoring device require? | 1.000 0.800 1.000 1.000 0.500 0.600 1.000 1.000 1.000 0.800 1.000 1.000
+Q08 | How do you calibrate the pressure relief valve on the hydraulic press? | 0.500 0.200 1.000 1.000 1.000 0.400 1.000 1.000 0.500 0.200 1.000 1.000
+Q09 | What is the acceptable thickness tolerance for incoming steel coils? | 0.500 0.400 1.000 1.000 1.000 0.400 1.000 1.000 1.000 0.400 1.000 1.000
+Q10 | What should be done if a Non-Conformance Report is raised during inspection? | 1.000 0.400 1.000 1.000 0.000 0.000 0.000 0.000 1.000 0.400 1.000 1.000
+Q11 | What is the recommended maintenance interval for the energy storage system? | 0.000 0.000 0.000 0.000 0.500 0.200 1.000 1.000 0.000 0.000 0.000 0.000
+Q12 | What protection functions does the Solkor relay provide for feeder protection? | 1.000 1.000 1.000 1.000 1.000 1.000 1.000 1.000 1.000 1.000 1.000 1.000
+Q13 | How is belt tracking adjusted on the conveyor system? | 0.500 0.200 1.000 1.000 0.000 0.000 0.000 0.000 0.500 0.200 1.000 1.000
+Q14 | What is the maximum operating temperature before a bearing failure is suspected? | 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000
+Q15 | What is the lockout-tagout procedure before servicing the hydraulic press? | 0.500 0.200 1.000 1.000 1.000 0.400 1.000 1.000 0.500 0.400 1.000 1.000
+AVERAGE | 15 queries | 0.633 0.467 0.800 0.800 0.633 0.427 0.733 0.733 0.700 0.480 0.800 0.800
+MRR | semantic=0.767 | bm25=0.733 | hybrid=0.767
+=== PHASE 5 COMPLETE ===

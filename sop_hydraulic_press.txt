@@ -1,0 +1,35 @@
+Standard Operating Procedure: Hydraulic Press Maintenance (Doc ID: SOP-204)
+
+1. Purpose
+This procedure describes the routine maintenance steps for the 200-ton hydraulic press
+used in the stamping line. Failure to follow this procedure may result in equipment
+downtime or safety hazards.
+
+2. Safety Precautions
+Before performing any maintenance, the press must be locked out and tagged out (LOTO)
+in accordance with plant safety policy. All hydraulic pressure must be released from the
+system before opening any hydraulic lines. Operators must wear safety glasses and
+insulated gloves when handling hydraulic fluid.
+
+3. Weekly Maintenance Steps
+3.1 Check hydraulic fluid level using the sight glass on the reservoir. Fluid should be
+between the MIN and MAX marks.
+3.2 Inspect all hydraulic hoses for cracking, bulging, or leaks. Replace any hose showing
+signs of wear immediately.
+3.3 Check the pressure relief valve setting using the calibrated gauge. The relief valve
+should trigger at 3000 PSI +/- 50 PSI.
+3.4 Clean the return line filter. Replace the filter element if pressure drop exceeds 15 PSI.
+
+4. Monthly Maintenance Steps
+4.1 Drain and inspect hydraulic fluid for contamination or discoloration.
+4.2 Test the emergency stop function and verify response time is under 0.5 seconds.
+4.3 Inspect ram alignment and check for excessive play in the guide rails.
+
+5. Troubleshooting
+If the press fails to build pressure, check for air in the system, a failing pump, or a
+stuck relief valve. If cycle time has increased significantly, inspect the pump for wear
+and check for internal leakage past the piston seals.
+
+6. Record Keeping
+All maintenance activities must be logged in the CMMS system with technician name,
+date, and parts replaced.

@@ -1,0 +1,35 @@
+Quality Inspection Procedure: Incoming Raw Material Inspection (Doc ID: QP-118)
+
+1. Scope
+This procedure applies to all incoming raw steel coils received from approved suppliers
+before they are released to production.
+
+2. Inspection Equipment Required
+Calipers, micrometer, hardness tester, coating thickness gauge, and the material
+certificate provided by the supplier.
+
+3. Inspection Steps
+3.1 Verify the material certificate matches the purchase order specification, including
+grade, thickness, and width tolerance.
+3.2 Measure thickness at five points across the coil width. Acceptable tolerance is
++/- 0.05 mm from nominal.
+3.3 Perform a hardness test at three locations. Hardness must fall within the range
+specified for the material grade (typically 120-150 HB for the standard grade used).
+3.4 Visually inspect for surface defects such as scratches, rust, or edge cracks. Reject
+any coil with defects exceeding 5% of surface area.
+3.5 Check coating thickness where applicable using the coating gauge. Minimum
+acceptable coating is 20 microns.
+
+4. Disposition
+4.1 If all checks pass, tag the coil as "Released" and update the inventory system.
+4.2 If any check fails, tag the coil as "On Hold" and notify the quality manager for
+further review. A Non-Conformance Report (NCR) must be raised within 24 hours.
+
+5. Common Non-Conformances
+The most frequent non-conformances observed over the past year are thickness
+deviation (38% of cases) and surface defects (29% of cases), followed by hardness
+out-of-range (18%) and coating deficiency (15%).
+
+6. Documentation
+All inspection results must be recorded in the Quality Management System (QMS) with
+photographs attached for any rejected material.

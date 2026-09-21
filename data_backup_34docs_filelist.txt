@@ -1,0 +1,37 @@
+# Original 34-document corpus filename inventory, captured before the 101-document rebuild.
+# Sources 1-33 are the distinct filenames stored in the known-good cached 34-document corpus.
+# The legacy sample `manual_conveyor_system.txt` is included as the 34th filename named in PROJECT_PLAN.md; it resides at the project root rather than `data/`.
+3MT7_DC_Control_Coil_Contactor_2026_202608261604499922.pdf
+7SR18_Solkor_Technical_Manual.pdf
+A5E54375282en_TS200_4...20mA_IO_Link_SIO_OI_en-US.pdf
+A6V112487689.pdf
+A6V112487690.pdf
+A6V112487691.pdf
+A6V13245674.pdf
+A6V13340549.pdf
+A6V14751140.pdf
+DRW_8LK9804-1AA18_00_ALL_202608211539579518.pdf
+DRW_8LK9804-1AA20_00_ALL_202608211601268604.pdf
+G220_eqip_man_0726_en-US.pdf
+OI_92310000039_RS-AB_008_202608201205190606.pdf
+OI_A5W02973512B_RS-AA_001_202608271103504971.pdf
+OI_A5W02973513B_RS-AA_001_202608271523100024.pdf
+OI_A5W02973515B_RS-AA_001_202608271050263028.pdf
+ONE_828D_cmvm_3d_builder_config_man_0826_en-US.pdf
+ONE_pmm_3d_win_op_man_0826_en-US.pdf
+ONE_pmm_3d_win_sw_inst_man_0826_en-US.pdf
+PCS7SMCM-CP100SP2B_en-US.pdf
+S220_booksize_OCPD_prod_info_0926_en-US.pdf
+S7_cm_ptp_distributed_IO_configuration_manual_en-US_en-US.pdf
+SICAM_Q200_7KG97_MAN_US.pdf
+SIE_DS_ISPD_2_Pole_600V_ISPD6002035R1.pdf
+SIMOCRANE_Energy_Storage_System_Management_V01_01_HF1_op_instr_0826_en-US.pdf
+SIP5_DIGSI5_Security_Conformance_Self-Assessment_EN.pdf
+conveyor_maintenance_sop.txt
+getting_started_SIMOCODE_M-CP_PCS_7_Lib_V10_SP2_en-US.pdf
+manual_SIRIUS_8WD46_8WD56_Electr_conf_signaling_columns_and_integrated_signal_lamps_en-US.pdf
+manual_motorstarter_SIRIUS_3RM1_en-US.pdf
+pdmbase-readme_online_en-US.pdf
+press_maintenance_sop.txt
+steel_quality_control_sop.txt
+manual_conveyor_system.txt

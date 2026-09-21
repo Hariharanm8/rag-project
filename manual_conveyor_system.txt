@@ -1,0 +1,37 @@
+Equipment Manual: Belt Conveyor System Model BC-500 (Doc ID: EM-077)
+
+1. Overview
+The BC-500 belt conveyor system transports finished components between the assembly
+line and the packaging station at a rated capacity of 45 units per minute.
+
+2. Startup Procedure
+2.1 Ensure all emergency stop buttons along the conveyor are in the released position.
+2.2 Check that the belt tension indicator shows a reading within the green zone.
+2.3 Power on the main drive motor from the control panel and observe the belt for
+smooth, even tracking for at least 60 seconds before loading material.
+
+3. Routine Maintenance
+3.1 Lubricate the drive chain every 500 operating hours using the specified chain
+lubricant (see Appendix A for approved lubricants).
+3.2 Inspect belt tracking weekly. Misalignment greater than 10 mm to either side
+requires adjustment of the tracking rollers.
+3.3 Check motor temperature monthly using an infrared thermometer. Normal operating
+temperature is 40-60 degrees Celsius. Temperatures above 75 degrees Celsius indicate
+a possible bearing failure or overload condition.
+
+4. Common Faults and Resolutions
+4.1 Belt slipping: usually caused by insufficient tension or a worn drive pulley.
+Increase tension incrementally and inspect pulley surface for glazing.
+4.2 Excessive noise: often caused by a misaligned idler roller or a failing bearing.
+Isolate the noise source by listening at each roller station while running at low speed.
+4.3 Belt tracking to one side: adjust the tail pulley alignment in small increments and
+re-check tracking after each adjustment.
+
+5. Shutdown Procedure
+5.1 Clear all material from the belt.
+5.2 Power down the drive motor from the control panel.
+5.3 Engage the mechanical brake if the conveyor is on an incline section.
+
+6. Safety Notes
+Do not reach into the conveyor while it is running. All guards must be reinstalled
+before restarting after maintenance.

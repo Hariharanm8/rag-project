@@ -1,0 +1,9 @@
+__pycache__/
+*.py[cod]
+*$py.class
+.cache/
+cache_backup_34docs/
+.env
+.venv
+env/
+venv/
