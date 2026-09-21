@@ -32,7 +32,7 @@ python rag_pipeline.py
   downloads. You don't need to submit this one, but the TF-IDF vs keyword
   output is genuinely usable as a rough "baseline comparison" data point
   if you want a second baseline beyond keyword search.
-- `data/` — 3 sample SOP/manual documents (hydraulic press, quality
+- `data/` — 101 sample SOP/manual documents (hydraulic press, quality
   inspection, conveyor system). Swap these for real documents whenever
   you get access to some — the code doesn't need to change, just point
   `load_documents()` at a folder with more .txt files (or extend it to
